@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Model outputs and data files: these contain raw client data (the company
+# field carries real client names) and must stay out of the repository.
+outputs/
+*.rds
+*.parquet
